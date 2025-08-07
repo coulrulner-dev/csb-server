@@ -201,7 +201,7 @@ module Sonolus
                 Rails.root.join(
                   "assets",
                   "#{type}s",
-                  "#{name.sub("chcy-", "")}.yml"
+                  "#{name.sub("csbs-", "")}.yml"
                 )
               )
           rescue Errno::ENOENT
@@ -213,7 +213,7 @@ module Sonolus
 
               v =
                 if k == "name"
-                  "chcy-#{v}"
+                  "csbs-#{v}"
                 elsif v.start_with?("!asset:")
                   asset_get(k, v.delete_prefix("!asset:"))
                 elsif v.start_with?("!file:")

@@ -15,7 +15,7 @@ hosts:
 s3:
   user: "minio"
   password: "secretkey"
-  bucket: "chcy-dev"
+  bucket: "csbs-dev"
   region: "us-east-1"
   endpoint: "http://localhost:9000"
   public: false
@@ -24,6 +24,6 @@ redis_url: "redis://localhost:6379/0"
 postgres:
   user: "postgres"
   password: "postgres"
-  database: "chcy-dev"
+  database: "csbs-dev"
   host: "localhost"
   port: 5432

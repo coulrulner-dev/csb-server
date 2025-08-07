@@ -18,7 +18,7 @@ hosts:
 s3:
   user: "access_id"
   password: "access_token"
-  bucket: "chcy"
+  bucket: "csbs"
   region: "us-east-1"
   endpoint: "https://hogehogefugafuga.r2.cloudflarestorage.com"
   public: true
@@ -27,7 +27,7 @@ redis_url: "redis://redis:6379/0"
 postgres:
   user: "postgres"
   password: "postgres"
-  database: "chcy"
+  database: "csbs"
   host: "postgres"
   port: 5432
 # Uncomment to require Discord link to post a chart.

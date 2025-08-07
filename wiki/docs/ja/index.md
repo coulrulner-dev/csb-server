@@ -9,5 +9,5 @@ Chart Cyanvas へようこそ！Chart Cyanvas は某セカイの創作譜面投�
 :::
 
 :::info
-ユーザー主体の [Chart Cyanvas Community Wiki](https://wikiwiki.jp/chcy-user/) もあります。こちらもご覧ください。
+ユーザー主体の [Chart Cyanvas Community Wiki](https://wikiwiki.jp/csbs-user/) もあります。こちらもご覧ください。
 :::

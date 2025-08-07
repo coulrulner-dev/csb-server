@@ -56,7 +56,7 @@ export default defineConfig({
           { text: "寄付", link: "/ja/donation" },
           { text: "SUS拡張仕様", link: "/ja/sus-extended-features" },
 
-          { text: "Community Wiki", link: "https://wikiwiki.jp/chcy-user" },
+          { text: "Community Wiki", link: "https://wikiwiki.jp/csbs-user" },
         ],
       },
     },
