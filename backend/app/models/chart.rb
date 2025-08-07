@@ -110,7 +110,7 @@ class Chart < ApplicationRecord
   def to_sonolus(background_version: :v3)
     resources = self.resources
     {
-      name: "chcy-#{name}",
+      name: "csbs-#{name}",
       title:,
       artists: "#{composer} / #{artist.presence || "-"}",
       author: "#{author_name.presence || author.name}##{author.display_handle}",
@@ -164,7 +164,7 @@ class Chart < ApplicationRecord
 
   def to_sonolus_background(resources, version: :v3)
     {
-      name: "chcy-bg-#{name}-#{version}",
+      name: "csbs-bg-#{name}-#{version}",
       version: 2,
       tags: [],
       source: ENV.fetch("FINAL_HOST", nil),

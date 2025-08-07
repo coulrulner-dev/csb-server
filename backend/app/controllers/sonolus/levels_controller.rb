@@ -169,7 +169,7 @@ module Sonolus
         itemType: "post",
         items: [
           {
-            name: "chcy-post-popular-is-maintenanced",
+            name: "csbs-post-popular-is-maintenanced",
             title: I18n.t("sonolus.popular_maintenance.title"),
             tags: [],
             version: 1,

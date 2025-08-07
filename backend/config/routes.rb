@@ -57,11 +57,11 @@ Rails.application.routes.draw do
     get "/levels/info", to: "sonolus/levels#info"
     get "/levels/list", to: "sonolus/levels#list"
 
-    get "/backgrounds/chcy-bg-:name", to: "sonolus/levels#background"
+    get "/backgrounds/csbs-bg-:name", to: "sonolus/levels#background"
   end
   scope "/sonolus" do
-    get "/levels/chcy-:name", to: "sonolus/levels#show"
-    post "/levels/chcy-:name/submit", to: "sonolus/levels#submit"
+    get "/levels/csbs-:name", to: "sonolus/levels#show"
+    post "/levels/csbs-:name/submit", to: "sonolus/levels#submit"
     get "/levels/result/info", to: "sonolus/levels#result_info"
     post "/authenticate", to: "sonolus#authenticate"
 
@@ -86,7 +86,7 @@ Rails.application.routes.draw do
         constraints: {
           type: Regexp.new(types.join("|"))
         }
-    get "/:type/chcy-:name",
+    get "/:type/csbs-:name",
         to: "sonolus/asset#show",
         constraints: {
           type: Regexp.new(types.join("|"))

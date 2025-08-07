@@ -419,7 +419,7 @@ const ChartPage = () => {
               )}
 
               <a
-                href={sonolusUrl(serverSettings, `/levels/chcy-${chartName}`)}
+                href={sonolusUrl(serverSettings, `/levels/csbs-${chartName}`)}
                 target="_blank"
                 className="button button-sonolus text-center p-1"
               >

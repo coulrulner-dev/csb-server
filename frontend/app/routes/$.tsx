@@ -21,8 +21,8 @@ export const loader = (async ({ request }) => {
       },
     });
   }
-  if (url.pathname.match(/levels\/chcy-([0-9a-zA-Z]+)/)) {
-    const levelId = url.pathname.match(/levels\/chcy-([0-9a-zA-Z]+)/)![1];
+  if (url.pathname.match(/levels\/csbs-([0-9a-zA-Z]+)/)) {
+    const levelId = url.pathname.match(/levels\/csbs-([0-9a-zA-Z]+)/)![1];
     return redirect(`/charts/${levelId}`, { status: 308 });
   }
 
